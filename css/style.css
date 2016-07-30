@@ -1,0 +1,541 @@
+/*清除默认样式*/
+body{
+  padding:0;
+  margin:0;
+  font-family: 'Oswald', sans-serif;
+  background:#FFF;
+}
+h1,h2,h3,h4,h5,h6{
+  margin:0;        
+} 
+p{
+  margin:0;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+li
+{
+  list-style:none;
+}
+a
+{
+  text-decoration:none;
+}
+/*清除默认样式结束*/
+/*public*/
+.clear:before
+{
+    content: "";
+    zoom:1;
+    clear:both;
+}
+/*public end*/
+/*layout*/
+#banner
+{
+  height:924px;
+  width:100%;
+  background:url(../img/banner.jpg) no-repeat;
+  background-size:cover;
+  position: relative;
+}
+#banner .header
+{
+  width:1130px;
+  height:95px;
+  background:#ababab;
+  margin:0 auto;
+  position:relative;
+}
+#banner .header .logo
+{
+  width:79px;
+  height:95px;
+  background:rgba(158, 147, 107, 0.51);
+  position:absolute;
+  left:0;
+  top:0;
+  font-size:24px;
+  color:#ffffff;
+  text-align:center;
+  line-height:95px;
+}
+#banner .header .nav
+{
+  width:479px;
+  height:95px;
+  position:absolute;
+  left:86px;
+}
+#banner .header .nav li
+{
+  float:left;
+  margin-left:43px;
+}
+#banner .header .nav li a
+{
+  text-align:center;
+  line-height:95px;
+  font-family:'Oswald', sans-serif;
+  font-size:17px;
+  color:#ffffff;
+}
+#banner .header .nav li a:hover
+{
+  color:#83774A;
+}
+#banner .header .share
+{
+  position:absolute;
+  top:36px;
+  right:33px;
+}
+#banner .header .share span
+{
+  display:inline-block;
+  width:35px;
+  height:35px;
+  background: url(../img/img-sprite.png) no-repeat 0 0;
+}
+#banner .header .share span:hover
+{
+  opacity:0.5;
+}
+#banner .header .share .face
+{
+  background-position:0 -9px;
+}
+#banner .header .share .twitter
+{
+  background-position:-40px -9px;
+}
+#banner .header .share .google
+{
+  background-position:-80px -9px;
+}
+#banner .title
+{
+  width:100%;
+  height:289px;
+}
+#banner .title h1
+{
+  text-align:center;
+  line-height:289px;
+  font-family:'Niconne', cursive;
+  text-align:center;
+  color:#ffffff;
+  font-size:100px;
+}
+#banner .claritas
+{
+  width:1140px;
+  height:275px;
+  position:absolute;
+  left:222px;
+  bottom:0;
+}
+#banner .claritas div
+{
+ width:270px;
+ height:275px;
+ opacity:0.7;
+ margin-right:1.5%;
+ float:left;
+}
+#banner .claritas div:nth-of-type(4)
+{
+  margin-right:0;
+}
+#banner .claritas .yellow
+{
+  background:#716642;
+  
+}
+#banner .claritas .red
+{
+  background:#863631;
+  
+}
+#banner .claritas .grey
+{
+  background:#9b8d66;
+}
+#banner .claritas .black
+{
+  background:#2a2817;
+}
+@keyframes change
+{
+  100%
+  {
+    opacity:1;
+  }
+}
+@-webkit-keyframes change
+{
+  100%
+  {
+    opacity:1;
+  }
+}
+#banner .claritas div:hover
+{
+  animation:1s change;
+  -webkit-animation:1s change;
+}
+.claritas .glyphicon
+{
+  display:block;
+  color:#ffffff;
+  font-size:50px;
+  padding:62px 0 0 109px;
+  transition:0.5s linear;
+  -webkit-transition:0.5s linear;
+}
+.claritas div:hover span
+{
+  transform:rotateY(360deg);
+  -webkit-transform:rotateY(360deg);
+  -moz-transform:rotateY(360deg);
+  -ms-transform:rotateY(360deg);
+  -o-transform:rotateY(360deg);
+}
+#banner .claritas h3
+{
+  text-align:center;
+  color:#ffffff;
+  margin-top:3em;
+  font-size:30px;
+}
+#info
+{
+  width:100%;
+  height:647px;
+  background:#f0f0f0;
+}
+#info .words
+{
+  width:1140px;
+  height:375px;
+  margin:0 auto;
+}
+#info .words .block
+{
+  width:270px;
+  height:272px;
+  background:#ffffff;
+  float:left;
+  margin-right:1.5%;
+  padding-top:45px;
+  position:relative;
+}
+#info #mag
+{
+  margin-right:0;
+}
+#info .words .block h4
+{
+  color:#000000;
+  text-transform:uppercase;
+  text-align:center;
+  line-height:50px;
+}
+#info .words .block span
+{
+  display:inline-block;
+  color:#a8a8a8;
+  line-height:23px;
+  text-align:center;
+  font-size:10px;
+}
+#info .words .block .bg1
+{
+  display:block;
+  width:50px;
+  height:50px;
+  position:absolute;
+  background: red;
+  right:-2px;
+  bottom:-2px;
+  background:url(../img/img-sprite.png) -130px -2px;
+}
+#info .words .block .bg2
+{
+  display:block;
+  width:50px;
+  height:50px;
+  position:absolute;
+  background: red;
+  right:-2px;
+  bottom:-2px;
+  background:url(../img/img-sprite.png) -191px -2px;
+}
+#info .words .block .bg3
+{
+  display:block;
+  width:50px;
+  height:50px;
+  position:absolute;
+  background: red;
+  right:-2px;
+  bottom:-2px;
+  background:url(../img/img-sprite.png) -250px -2px;
+}
+#info .words .block .bg4
+{
+  display:block;
+  width:50px;
+  height:50px;
+  position:absolute;
+  background: red;
+  right:-2px;
+  bottom:-2px;
+  background:url(../img/img-sprite.png) -10px -50px;
+}
+#info .pic
+{
+  width:1140px;
+  height:207px;
+  margin:0 auto;
+  position:relative;
+}
+#info .pic .intro
+{
+  width:600px;
+  height:207px;
+  margin:0 auto;
+  display:block;
+}
+#info .pic .intro span
+{
+  display:inline-block;
+}
+#info .pic .s1
+{
+  position:absolute;
+  left:0;
+  top:0;
+  width:270px;
+  height:207px;
+  background:url(../img/s1.jpg) no-repeat;
+}
+#info .pic .s2
+{
+  width:270px;
+  height:207px;
+  background:url(../img/s2.jpg) no-repeat ;
+  position:absolute;
+  right:0;
+  top:0;
+}
+#info .pic .intro h4
+{
+  text-align:center;
+  line-height: 36px;
+  color:#616161;
+  font-weight:none;
+}
+#info .pic .intro p
+{
+  text-align:center;
+  line-height:26px;
+  font-size:10px;
+  color:#cccccc;
+}
+#show
+{
+  width:100%;
+  height:490px;
+  background:#ffffff;
+  padding-top:86px;
+}
+#show .showPic
+{
+  width:1140px;
+  height:321px;
+  margin:0 auto;
+  position:relative;
+}
+#show .showPic .img
+{
+  width:370px;
+  height:321px;
+  float:left;
+  margin-right:10px;
+}
+#show .showPic .img .img1
+{
+  width:370px;
+  height:256px;
+  background:url(../img/i1.jpg) no-repeat;
+}
+#show .showPic .img h3
+{
+  text-align:center;
+  color:#ffffff;
+  width:370px;
+  height:64px;
+  background:#84754e;
+  position:absolute;
+  bottom:0;
+  line-height:64px;
+}
+#show .showPic .img .img2
+{
+  width:370px;
+  height:256px;
+  background:url(../img/i2.jpg) no-repeat;
+}
+#show .showPic .img .img3
+{
+  width:370px;
+  height:256px;
+  padding-top:85px;
+  background:#000000;
+}
+#show .showPic .img .img3 h4
+{
+  text-align:center;
+  color:#ffffff;
+}
+#show .showPic .img .img3 .word p
+{
+  text-align:center;
+  line-height:23px;
+  color:#cccccc;
+}
+#show .showPic .img .img3 .word
+{
+  padding-top:24px;
+}
+#banner2
+{
+  width:100%;
+  height:380px;
+  margin:86px auto 0 auto;
+  padding-top:60px;
+  background:url(../img/i5.jpg) no-repeat center center;
+  background-size:cover;
+}
+#banner2 .title2 h2
+{
+  text-align:center;
+  color:#ffffff;
+  line-height:72px;
+}
+#banner2 .title2 h4
+{
+  color:#eeffff;
+  line-height:60px;
+  text-align:center;
+}
+#banner2 .title2 p
+{
+  text-align:center;
+  line-height:31px;
+  margin-top:5px;
+  color:#cccccc;
+}
+#news
+{
+  width:100%;
+  height:609px;
+  padding-top:62px;
+  background:#ffffff;
+}
+#news .wrap
+{
+  width:1140px;
+  height:487px;
+  margin:0 auto;
+}
+#news .wrap .titleTop
+{
+ width:289px;
+ height:112px;
+}
+#news .wrap .titleTop h2
+{
+  color:#a6192e;
+  line-height:57px;
+  font-size: 40px;
+  font-weight:300 ;
+}
+#news .wrap .titleTop p
+{
+  line-height:25px;
+  color:#cccccc;
+  font-size:10px;
+}
+#news .wrap .picList
+{
+  width:1140px;
+  height:377px;
+  padding:39px 15px 0 15px;
+}
+#news .wrap .picList .timerBox
+{
+  width:255px;
+  height:56px;
+}
+#news .wrap .picList .timerBox h4 a
+{
+  text-decoration:none;
+  color:#000000;
+  line-height:28px;
+  font-weight:200;
+}
+#news .wrap .picList .timerBox p
+{
+  font-size:10px;
+  line-height:28px;
+  color:#ab5255;
+  font-weight:200;
+}
+#news .wrap .picList .pic
+{
+  width:255px;
+  height:182px;
+  padding:11px 0;
+  background:url(../img/img1.jpg) no-repeat;
+  transition:1s 0.5s ease-out;
+  -webkit-transition:1s 0.5s ease-out;
+}
+#news .wrap .picList .pic:hover
+{
+  transform:scale3d(1.1,1.1,1.1);
+  -webkit-transform:scale3d(1.1,1.1,1.1);
+}
+#news .wrap .picList .picBottom p
+{
+  color:#cccccc;
+  font-weight:300;
+  line-height:28px;
+}
+#news .wrap .picList .list
+{
+  width:255px;
+  height:360px;
+  position:relative;
+}
+#news .wrap .picList .list .bgTrial
+{
+  background:url(../img/read.png) no-repeat center center;
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:34px;
+  height:26px;
+}
+#news .wrap .picList .list
+{
+  margin-right:30px;
+  float:left;
+}
+#news .wrap .picList .list:nth-of-type(4)
+{
+  margin-right:0;
+}

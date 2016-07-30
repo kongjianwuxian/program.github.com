@@ -1,0 +1,120 @@
+#footer
+{
+  width:100%;
+  height:457px;
+  background:#515151;
+}
+#footer .wrapBox
+{
+  width:1140px;
+  height:457px;
+  margin:0 auto;
+  padding:50px 0 0 0;
+}
+#footer .wrapBox .touch
+{
+  margin-right:26px;
+}
+#footer .wrapBox h3
+{
+  color:#ffffff;
+  line-height:64px;
+  font-weight:bolder;
+}
+#footer .wrapBox p
+{
+  line-height:26px;
+  font-size:10px;
+  color:#cccccc;
+}
+#footer .wrapBox .share span
+{
+  display:block;
+  background:url(../img/img-sprite.png) no-repeat;
+  width:35px;
+  height:35px;
+  float:left;
+  opacity:0.7;
+}
+#footer .wrapBox .share span:hover
+{
+  opacity:1;
+}
+#footer .wrapBox .share .share1
+{
+  background-position:0 0;
+}
+#footer .wrapBox .share .share2
+{
+  background-position:-40px 0;
+}
+#footer .wrapBox .share .share3
+{
+  background-position:-80px 0;
+}
+#footer .box
+{
+  float:left;
+}
+#footer .wrapBox .add
+{
+  margin-right:138px;
+}
+#footer .wrapBox .add h3
+{
+  color:#ffffff;
+  line-height:64px;
+  font-weight:bolder;
+}
+#footer .wrapBox .drop h3
+{
+  color:#ffffff;
+  line-height:64px;
+  font-weight:bolder;
+}
+#footer .wrapBox .drop li
+{
+  float:left;
+}
+#footer .wrapBox .drop li input
+{
+  width:260px;
+  height:40px;
+  margin:0 12px 15px 0;
+}
+#footer .wrapBox .drop textarea
+{
+  width:529px;
+  height:108px;
+}
+#footer .wrapBox .drop a
+{
+  width:82px;
+  height:37px;
+  background:#7b7b7b;
+  display:block;
+  text-align:center;
+  line-height:37px;
+  color:#ffffff;
+}
+#private
+{
+  width:100%;
+  height:60px;
+  background:#343b41;
+}
+#private p
+{
+  text-align:center;
+  line-height:60px;
+  color:#ffffff;
+}
+#goTop a img
+{
+  display:block;
+  position:fixed;
+  width:40px;
+  height:40px;
+  bottom:10px;
+  right:20px;
+}
