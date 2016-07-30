@@ -521,14 +521,7 @@ a
   height:360px;
   position:relative;
 }
-#news .wrap .picList .list .bgTrial
-{
-  position:absolute;
-  left:0;
-  bottom:0;
-  width:34px;
-  height:26px;
-}
+
 #news .wrap .picList .list
 {
   margin-right:30px;
